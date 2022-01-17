@@ -1,6 +1,7 @@
 package org.example.practice;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
@@ -57,10 +58,6 @@ public class DailyPractice {
         return key ? "" : strs[0].substring(0, index + 1);
     }
 
-    public static void main(String[] args) {
-        System.out.println(isValid("(("));
-    }
-
     /**
      * @return : boolean
      * @author : vic
@@ -100,5 +97,67 @@ public class DailyPractice {
             }
         }
         return stack.isEmpty();
+    }
+
+    /**
+     * @return : * @return null
+     * @author : vic
+     * @description :给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
+     * @createDate : 2022/1/16 4:44 下午
+     * @params : * @param: null
+     **/
+    public static ListNode removeNthFromEnd(ListNode head, int n) {
+
+        ListNode h = head, q = head, l = head;
+        //快指针先走n点，慢指针再走
+        for (int i = 0; i < n; i++) {
+            //超过直接跳出
+            if (q == null) {
+                return null;
+            } else {
+                q = q.next;
+            }
+        }
+
+        if (q == null) {
+            h = h.next;
+            return h;
+        }
+
+        //同时往前走
+        while (q.next != null) {
+            q = q.next;
+            l = l.next;
+        }
+
+        l.next = l.next.next;
+        return h;
+    }
+
+    public static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        ListNode listNode = removeNthFromEnd(new ListNode(1, new ListNode(2, null)), 2);
+
+        while (listNode != null) {
+            System.out.println(listNode.val);
+            listNode = listNode.next;
+        }
     }
 }
