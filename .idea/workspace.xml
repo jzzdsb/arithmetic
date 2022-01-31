@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cd500c-78c4-46ae-a045-62ea29cc88da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/java/org/example/practice/Solution9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.main/test/org/example/Solution8Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.main/test/org/example/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src.main/test/org/example/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +51,36 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src.main/java/org/example/practice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="arithmetic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Solution" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src.main/java/org/example/practice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.practice" />
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution10">
+    <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practice.Solution10" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,27 +88,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Solution8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practice.Solution8" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TreeTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -97,10 +121,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arithmetic" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TreeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arithmetic [deploy]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Solution10" />
+        <item itemvalue="Application.Solution8" />
+        <item itemvalue="JUnit.TreeTest.test" />
+        <item itemvalue="Maven.arithmetic [deploy]" />
         <item itemvalue="JUnit.TreeTest" />
       </list>
     </recent_temporary>
@@ -120,9 +181,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640173114120</updated>
-      <workItem from="1640173118006" duration="3747000" />
+      <workItem from="1640173118006" duration="4100000" />
+      <workItem from="1640533856499" duration="506000" />
+      <workItem from="1640841742508" duration="105000" />
+      <workItem from="1642148113953" duration="76000" />
+      <workItem from="1642148208988" duration="4211000" />
+      <workItem from="1642171726559" duration="787000" />
+      <workItem from="1642273579354" duration="739000" />
+      <workItem from="1642304793285" duration="22670000" />
+      <workItem from="1642835310742" duration="6437000" />
+      <workItem from="1642944465031" duration="2476000" />
+      <workItem from="1642994935047" duration="9327000" />
+      <workItem from="1643016232763" duration="2278000" />
+      <workItem from="1643078424571" duration="171000" />
+      <workItem from="1643099574403" duration="5559000" />
+      <workItem from="1643521573871" duration="1177000" />
+      <workItem from="1643551779228" duration="15599000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代码提交--&gt;z最接近三数和(草稿)">
+      <created>1640178113193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178113194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="代码提交--&gt;算法">
+      <created>1642304845057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642304845057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="代码提交--&gt;快慢指针">
+      <created>1642435759400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642435759400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,25 +239,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码提交--&gt;构建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码提交--&gt;构建项目" />
+    <MESSAGE value="代码提交--&gt;z最接近三数和(草稿)" />
+    <MESSAGE value="代码提交--&gt;算法" />
+    <MESSAGE value="代码提交--&gt;快慢指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码提交--&gt;快慢指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src.main/java/org/example/Solution.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src.main/java/org/example/Solution.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src.main/java/org/example/Solution.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src.main/java/org/example/practice/Solution10.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
